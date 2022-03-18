@@ -9,7 +9,7 @@ scalaVersion := "2.12.15"
 
 // Lines like the above defining `scalaVersion` are called "settings". Settings
 // are key/value pairs. In the case of `scalaVersion`, the key is "scalaVersion"
-// and the value is "2.13.8"
+// and the value is "2.12.15"
 
 // It's possible to define many kinds of settings, such as:
 
@@ -17,10 +17,7 @@ name := "simple-app"
 organization := "ai.quantifics"
 version := "1.0"
 
-// Note, it's not required for you to define these three settings. These are
 // mostly only necessary if you intend to publish your library's binaries on a
-// place like Sonatype.
-
 
 // Want to use a published library in your project?
 // You can define other libraries as dependencies in your build like this:
